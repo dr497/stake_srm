@@ -1,7 +1,5 @@
 from ftx.client import FtxClient
-import logging
 
-logger = logging.getLogger(__name__)
 
 SRM_COINS = ['SRM', 'SRM_LOCKED', 'MSRM', 'MSRM_LOCKED']
 
