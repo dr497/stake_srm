@@ -1,7 +1,7 @@
+import threading
 from ftx.client import FtxClient
 from staking import auto_staking
 from settings import API, SECRET, SUBACCOUNT
-import threading
 
 
 def main() -> None:
