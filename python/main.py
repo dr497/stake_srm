@@ -4,7 +4,7 @@ from settings import API, SECRET, SUBACCOUNT
 import threading
 
 
-def main():
+def main() -> None:
     threading.Timer(60 * 60.0, main).start()
     client = FtxClient(api_key=API,
                        api_secret=SECRET,
