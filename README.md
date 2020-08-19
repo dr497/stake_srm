@@ -16,7 +16,32 @@ Serum is the world's first completely decentralized derivatives exchange with tr
 
 - SRM can be staked directly on FTX: [https://ftx.com/staking](https://ftx.com/staking)
 
+# API Keys
 
+## Python
+
+If you are using Python enter your API credentials in settings.py
+
+```python
+API = ''
+SECRET = ''
+SUBACCOUNT = None
+```
+
+Subaccount can stay `None` if you are going to use your main account.
+
+## Go
+
+If you are using Go enter your API credentials in settings.go
+
+```go
+package main
+
+const API = ""
+const SECRET = ""
+const SUBACCOUNT = "" // Leave blank if using the main account
+```
+Subaccount can stay `""` if you are going to use your main account.
 
 # Deploy with Docker
 
