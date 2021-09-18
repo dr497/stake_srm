@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-var SRM_COINS = []string{"SRM", "SRM_LOCKED", "MSRM", "MSRM_LOCKED"}
+var COINS = []string{"SRM", "SRM_LOCKED", "MSRM", "MSRM_LOCKED", "SOL", "RAY"}
 
 func auto_staking(client *FtxClient, wg *sync.WaitGroup) {
 	defer wg.Done()
