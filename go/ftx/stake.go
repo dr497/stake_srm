@@ -16,7 +16,7 @@ func (client *FtxClient) Stakes(coin string, size float64) (StakesResponse, erro
 		log.Printf("Error Stakes %s", err)
 		return stakesResponse, err
 	}
-	resp, err := client._post("srm_stakes/stakes", stakes)
+	resp, err := client._post("staking/stakes", stakes)
 	if err != nil {
 		log.Printf("Error Stakes %s", err)
 		return stakesResponse, err
