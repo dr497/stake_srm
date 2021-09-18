@@ -71,4 +71,4 @@ class FtxClient:
         return balance_coin[0]
 
     def stakes(self, coin: str, size: float) -> dict:
-        return self._post(f'srm_stakes/stakes', {'coin': coin, 'size': size})
+        return self._post(f'staking/stakes', {'coin': coin, 'size': size})
